@@ -1,12 +1,13 @@
 import cv2
 
-image = cv2.imread('C:\\Users\hMd\Desktop\image.jpg')
+image = cv2.imread('image.jpg')
+
 gray_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 
-template = cv2.imread('C:\\Users\hMd\Desktop\\template.jpg')
+template = cv2.imread('template.jpg')
 gray_template = cv2.cvtColor(template, cv2.COLOR_BGR2GRAY)
 
-w, h  = gray_template.shape
+w, h = gray_template.shape
 
 # Apply template Matching
 res = cv2.matchTemplate(gray_image, gray_template, cv2.TM_CCOEFF)
