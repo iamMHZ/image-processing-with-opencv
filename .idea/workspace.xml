@@ -2,13 +2,73 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac8e3671-484b-41e0-bf53-33d5cfce1234" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/hMd.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Opencv Binaries/opencv_python-4.1.1+contrib-cp36-cp36m-win_amd64.whl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Opencv Binaries/opencv_python-4.1.1+contrib-cp37-cp37m-win32.whl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Opencv Binaries/opencv_python-4.1.1+contrib-cp37-cp37m-win_amd64.whl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/detection/faceDetection/Dlib.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/detection/faceDetection/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/detection/handDetection/templatematching/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/detection/templateMatching/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/patternRecognition/sift/FeatureDetection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/patternRecognition/sift/peroxide.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/patternRecognition/sift/testImage.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cv.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/inputs-0.5.dist-info/DESCRIPTION.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/inputs-0.5.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/inputs-0.5.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/inputs-0.5.dist-info/metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/inputs-0.5.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/inputs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/opencv.LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/opencv_python-4.1.1+contrib.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/opencv_python-4.1.1+contrib.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/opencv_python-4.1.1+contrib.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pathlib-1.0.1-py3.7.egg-info/PKG-INFO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pathlib-1.0.1-py3.7.egg-info/SOURCES.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pathlib-1.0.1-py3.7.egg-info/dependency_links.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pathlib-1.0.1-py3.7.egg-info/installed-files.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pathlib-1.0.1-py3.7.egg-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pathlib.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.2.1.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.2.1.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.2.1.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/commands/debug.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/distributions/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/distributions/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/distributions/installed.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/distributions/source.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/distributions/wheel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/models/search_scope.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/models/selection_prefs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/models/target_python.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/utils/marker_files.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/utils/virtualenv.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/vcs/versioncontrol.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/packages/rfc3986/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/packages/rfc3986/_mixin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/packages/rfc3986/abnf_regexp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/packages/rfc3986/api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/packages/rfc3986/builder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/packages/rfc3986/compat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/packages/rfc3986/exceptions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/packages/rfc3986/iri.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/packages/rfc3986/misc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/packages/rfc3986/normalizers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/packages/rfc3986/parseresult.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/packages/rfc3986/uri.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/packages/rfc3986/validators.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pyparsing-2.4.2.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pyparsing-2.4.2.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/opencv_videoio_ffmpeg411.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/detection/EyeDetection.py" beforeDir="false" afterPath="$PROJECT_DIR$/detection/faceDetection/EyeDetection.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/detection/Face.py" beforeDir="false" afterPath="$PROJECT_DIR$/detection/faceDetection/Face.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/cv2/LICENSE-3RD-PARTY.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/cv2/LICENSE.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/cv2/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/cv2/cv2.cp37-win32.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/cv2/cv2.cp37-win32.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cv2.cp37-win32.pyd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/cv2/data/__init__.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/cv2/data/haarcascade_eye.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/cv2/data/haarcascade_eye_tree_eyeglasses.xml" beforeDir="false" />
@@ -27,20 +87,20 @@
       <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/cv2/data/haarcascade_russian_plate_number.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/cv2/data/haarcascade_smile.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/cv2/data/haarcascade_upperbody.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/cv2/opencv_ffmpeg410.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/opencv_python-4.1.0.25.dist-info/INSTALLER" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/opencv_python-4.1.0.25.dist-info/LICENSE-3RD-PARTY.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/cv2/opencv_ffmpeg410.dll" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/opencv_videoio_ffmpeg411.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/opencv_python-4.1.0.25.dist-info/INSTALLER" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/inputs-0.5.dist-info/INSTALLER" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/opencv_python-4.1.0.25.dist-info/LICENSE-3RD-PARTY.txt" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/opencv.LICENSE-3RD-PARTY" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/opencv_python-4.1.0.25.dist-info/LICENSE.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/opencv_python-4.1.0.25.dist-info/METADATA" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/opencv_python-4.1.0.25.dist-info/RECORD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/opencv_python-4.1.0.25.dist-info/WHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/opencv_python-4.1.0.25.dist-info/WHEEL" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/opencv_python-4.1.1+contrib.dist-info/WHEEL" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/opencv_python-4.1.0.25.dist-info/top_level.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.1.1.dist-info/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.1.1.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.1.1.dist-info/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.2.1.dist-info/LICENSE.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.1.1.dist-info/METADATA" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.2.1.dist-info/METADATA" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.1.1.dist-info/RECORD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.1.1.dist-info/WHEEL" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.1.1.dist-info/entry_points.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.1.1.dist-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.1.1.dist-info/WHEEL" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/inputs-0.5.dist-info/WHEEL" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.1.1.dist-info/entry_points.txt" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.2.1.dist-info/entry_points.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.1.1.dist-info/top_level.txt" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.2.1.dist-info/INSTALLER" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/build_env.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/build_env.py" afterDir="false" />
@@ -70,7 +130,7 @@
       <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/req/constructors.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/req/constructors.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/req/req_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/req/req_file.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/req/req_install.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/req/req_install.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/resolve.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/resolve.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/legacy_resolve.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/utils/compat.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/utils/compat.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/utils/deprecation.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/utils/deprecation.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/utils/glibc.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/utils/glibc.py" afterDir="false" />
@@ -126,14 +186,14 @@
       <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/util/ssl_.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/util/ssl_.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/util/timeout.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/util/timeout.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/util/url.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/util/url.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pyparsing-2.4.0.dist-info/DESCRIPTION.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pyparsing-2.4.0.dist-info/INSTALLER" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pyparsing-2.4.0.dist-info/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pyparsing-2.4.0.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pyparsing-2.4.0.dist-info/DESCRIPTION.rst" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pyparsing-2.4.2.dist-info/DESCRIPTION.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pyparsing-2.4.0.dist-info/INSTALLER" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/opencv_python-4.1.1+contrib.dist-info/INSTALLER" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pyparsing-2.4.0.dist-info/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pyparsing-2.4.2.dist-info/LICENSE.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pyparsing-2.4.0.dist-info/METADATA" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pyparsing-2.4.2.dist-info/METADATA" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pyparsing-2.4.0.dist-info/RECORD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pyparsing-2.4.0.dist-info/WHEEL" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pyparsing-2.4.0.dist-info/metadata.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pyparsing-2.4.0.dist-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pyparsing-2.4.0.dist-info/WHEEL" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pyparsing-2.4.2.dist-info/WHEEL" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pyparsing-2.4.0.dist-info/metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pyparsing-2.4.2.dist-info/metadata.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pyparsing-2.4.0.dist-info/top_level.txt" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pyparsing-2.4.2.dist-info/top_level.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pyparsing.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pyparsing.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/Scripts/pip-script.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/Scripts/pip.exe" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/pip.exe" afterDir="false" />
@@ -196,14 +256,14 @@
           <entry key="JPG" value="2" />
           <entry key="jpg" value="6" />
           <entry key="png" value="3" />
-          <entry key="py" value="54" />
+          <entry key="py" value="55" />
           <entry key="yml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Image" value="11" />
-          <entry key="Python" value="54" />
+          <entry key="Python" value="55" />
           <entry key="YAML" value="1" />
         </counts>
       </usages-collector>
@@ -236,7 +296,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/patternRecognition/sift/FeatureDetection.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="880">
+            <state relative-caret-position="924">
               <caret line="42" column="15" selection-start-line="42" selection-start-column="15" selection-end-line="42" selection-end-column="15" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
@@ -246,6 +306,11 @@
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Test.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -260,7 +325,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ai/recognizer/faceRecognizer.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="178">
@@ -292,7 +357,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Test.py" />
         <option value="$PROJECT_DIR$/tensorflow/Test.py" />
         <option value="$PROJECT_DIR$/qt.py" />
         <option value="$PROJECT_DIR$/cuda/Test.py" />
@@ -318,6 +382,7 @@
         <option value="$PROJECT_DIR$/ai/recognizer/SaveImages.py" />
         <option value="$PROJECT_DIR$/ai/recognizer/ImageTrainer.py" />
         <option value="$PROJECT_DIR$/ai/recognizer/faceRecognizer.py" />
+        <option value="$PROJECT_DIR$/Test.py" />
       </list>
     </option>
   </component>
@@ -346,16 +411,6 @@
             <path>
               <item name="BigProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="BigProject" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BigProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BigProject" type="462c0819:PsiDirectoryNode" />
-              <item name="detection" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BigProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BigProject" type="462c0819:PsiDirectoryNode" />
-              <item name="Opencv Binaries" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -580,6 +635,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="33" y="2" width="1460" height="852" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20571429" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -630,7 +686,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Test.py" />
     <entry file="file://$PROJECT_DIR$/concepts/Salt.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
@@ -857,19 +912,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/patternRecognition/sift/FeatureDetection.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="880">
-          <caret line="42" column="15" selection-start-line="42" selection-start-column="15" selection-end-line="42" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-            <marker date="1564824291758" expanded="true" signature="84:358" ph="..." />
-            <marker date="1564824291758" expanded="true" signature="421:535" ph="..." />
-            <marker date="1564824291758" expanded="true" signature="548:553" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ai/recognizer/ImageTrainer.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
@@ -889,6 +931,22 @@
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/patternRecognition/sift/FeatureDetection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="924">
+          <caret line="42" column="15" selection-start-line="42" selection-start-column="15" selection-end-line="42" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+            <marker date="1564824291758" expanded="true" signature="84:358" ph="..." />
+            <marker date="1564824291758" expanded="true" signature="421:535" ph="..." />
+            <marker date="1564824291758" expanded="true" signature="548:553" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
