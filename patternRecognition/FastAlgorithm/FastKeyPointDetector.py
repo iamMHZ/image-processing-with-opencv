@@ -13,7 +13,7 @@ while camera.isOpened():
 
     output = cv2.drawKeypoints(frame, key_points, frame)
 
-    cv2.imshow("keypoints", output)
+    cv2.imshow("key points", output)
 
     key = cv2.waitKey(1)
     if key == 32:
