@@ -17,12 +17,12 @@ class HazmatDetector:
 
     def calculate_features(self, original_image):
 
-        image = cv2.cvtColor(original_image, cv2.COLOR_BGR2GRAY)
+        changed_image = cv2.cvtColor(original_image, cv2.COLOR_BGR2GRAY)
 
         feature_detector = cv2.ORB.create(30000)
-        key_points, descriptors = feature_detector.detectAndCompute(image, None)
+        key_points, descriptors = feature_detector.detectAndCompute(changed_image, None)
 
-        return key_points, descriptors, image
+        return key_points, descriptors, changed_image
 
     # prepossessing task
     def read_templates(self, path):
@@ -59,16 +59,29 @@ class HazmatDetector:
 
         camera = cv2.VideoCapture(camera_id)
 
+        # TODO implement it with cv2.FlannBasedMatcher
         bf_matcher = cv2.BFMatcher(normType=cv2.NORM_HAMMING)
 
         while True:
-
             _, frame = camera.read()
             # frame = cv2.flip(frame, 1)
 
-            # check matches:
+            # draw a rectangle for region of interest:
+            height, width, channels = frame.shape
+            w = 150
+            h = 200
+            x = int((width / 2) - (w / 2))
+            y = int((height / 2) - (h / 2))
+            color = (0, 255, 0)
+            thickness = 2
+            cv2.rectangle(frame, (x, y), (x + w, y + h), color, thickness)
+            # extract the region of interest
+            roi = frame[y + thickness:y + h - thickness, x + thickness:x + w - thickness]
+            # self.__show_image('roi', frame)
+            # self.__show_image('roi', roi)
 
-            frame_key_points, frame_descriptors, changed_frame = self.calculate_features(frame)
+            # check matches:
+            frame_key_points, frame_descriptors, changed_frame = self.calculate_features(roi)
 
             # checking with all other hazmat templates that we have in our list:
             founded_name = ""  # a name that will be written on the frame as name of the hazmat that was detected
@@ -89,16 +102,16 @@ class HazmatDetector:
                 # condition to demonstrate the minimum matches needed for detection to be true:
                 if len(good_points) > 5:
                     founded_name = hazmat_name
-                    cv2.putText(changed_frame, founded_name, (100, 100), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 255), 3)
+                    cv2.putText(frame, founded_name, (100, 100), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 255), 3)
 
                 img = cv2.drawMatches(hazmate_image, hazmat_key_points, changed_frame, frame_key_points, good_points,
                                       changed_frame, flags=2)
+                self.__show_image('matches', img)
 
-                self.__show_image('result', img)
+            self.__show_image('result', frame)
 
-                key = cv2.waitKey(1)
-                if key == 32:
-                    break
-
-        camera.release()
-        cv2.destroyAllWindows()
+            key = cv2.waitKey(1)
+            if key == 32:
+                camera.release()
+                cv2.destroyAllWindows()
+                break

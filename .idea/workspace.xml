@@ -2,7 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac8e3671-484b-41e0-bf53-33d5cfce1234" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/DNN/YOLO/testImage3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DNN/YOLO/testImage4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DNN/YOLO/testImage5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/detection/backgroundDetection&amp;subtraction/BackgroundSubtractor.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DNN/YOLO/TestYolo.py" beforeDir="false" afterPath="$PROJECT_DIR$/DNN/YOLO/TestYolo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/detection/backgroundDetection&amp;subtraction/BackgroundSubtractorMOG.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patternRecognition/hazmatDetection/HazmatDetector.py" beforeDir="false" afterPath="$PROJECT_DIR$/patternRecognition/hazmatDetection/HazmatDetector.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qt/Main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qt/OpenCameraView.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qt/Test.ui" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qt/__init__.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,7 +37,7 @@
     <session id="2090198528">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="33" />
+          <entry key="project.closed" value="37" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.19" value="1" />
@@ -37,17 +48,20 @@
           <entry key="project.open.time.24" value="5" />
           <entry key="project.open.time.25" value="2" />
           <entry key="project.open.time.26" value="3" />
-          <entry key="project.open.time.27" value="4" />
+          <entry key="project.open.time.27" value="5" />
+          <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.29" value="1" />
           <entry key="project.open.time.30" value="1" />
           <entry key="project.open.time.31" value="2" />
+          <entry key="project.open.time.32" value="1" />
           <entry key="project.open.time.34" value="2" />
           <entry key="project.open.time.35" value="1" />
           <entry key="project.open.time.36" value="1" />
+          <entry key="project.open.time.40" value="1" />
           <entry key="project.open.time.47" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="34" />
+          <entry key="project.opened" value="38" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -55,30 +69,30 @@
           <entry key="JPG" value="2" />
           <entry key="jpg" value="11" />
           <entry key="names" value="2" />
-          <entry key="png" value="3" />
-          <entry key="py" value="62" />
+          <entry key="png" value="4" />
+          <entry key="py" value="67" />
           <entry key="yml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Image" value="16" />
+          <entry key="Image" value="17" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="62" />
+          <entry key="Python" value="67" />
           <entry key="YAML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="60" />
-          <entry key="py" value="19350" />
+          <entry key="py" value="21152" />
           <entry key="txt" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="87" />
-          <entry key="Python" value="19350" />
+          <entry key="Python" value="21152" />
         </counts>
       </usages-collector>
     </session>
@@ -88,7 +102,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/detection/templateMatching/TemplateMaching.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
+            <state>
               <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
             </state>
           </provider>
@@ -97,49 +111,25 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/patternRecognition/hazmatDetection/HazmatDetector.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-286">
-              <caret line="67" selection-start-line="67" selection-end-line="67" />
+            <state relative-caret-position="-405">
+              <caret line="76" column="62" selection-start-line="76" selection-start-column="62" selection-end-line="76" selection-end-column="62" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
-                <marker date="1565263272322" expanded="true" signature="71:211" ph="..." />
-                <marker date="1565263272322" expanded="true" signature="572:602" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/patternRecognition/FastAlgorithm/FastKeyPointDetector.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DNN/YOLO/TestYolo.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="46" column="31" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-                <marker date="1566044217802" expanded="true" signature="68:233" ph="..." />
-                <marker date="1566044217802" expanded="true" signature="266:267" ph="..." />
-                <marker date="1566044217802" expanded="true" signature="266:688" ph="..." />
+                <marker date="1566385565402" expanded="true" signature="71:211" ph="..." />
+                <marker date="1566385565402" expanded="true" signature="596:626" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/detection/backgroundDetection&amp;subtraction/BackgroundSubtractorMOG.py">
+        <entry file="file://$PROJECT_DIR$/detection/backgroundDetection&amp;subtraction/BackgroundSubtractor.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+            <state relative-caret-position="66">
+              <caret line="3" column="19" lean-forward="true" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
               <folding>
-                <marker date="1566133969206" expanded="true" signature="32:37" ph="..." />
-                <marker date="1566133969206" expanded="true" signature="156:161" ph="..." />
+                <marker date="1566139651310" expanded="true" signature="32:37" ph="..." />
+                <marker date="1566139651310" expanded="true" signature="168:169" ph="..." />
               </folding>
             </state>
           </provider>
@@ -194,11 +184,12 @@
         <option value="$PROJECT_DIR$/ai/Test.py" />
         <option value="$PROJECT_DIR$/patternRecognition/hazmatDetection/Test1.py" />
         <option value="$PROJECT_DIR$/patternRecognition/hazmatDetection/Hazmat.py" />
-        <option value="$PROJECT_DIR$/patternRecognition/hazmatDetection/HazmatDetector.py" />
         <option value="$PROJECT_DIR$/patternRecognition/hazmatDetection/Test.py" />
         <option value="$PROJECT_DIR$/patternRecognition/FastAlgorithm/FastKeyPointDetector.py" />
-        <option value="$PROJECT_DIR$/DNN/YOLO/TestYolo.py" />
         <option value="$PROJECT_DIR$/detection/backgroundDetection&amp;subtraction/BackgroundSubtractorMOG.py" />
+        <option value="$PROJECT_DIR$/detection/backgroundDetection&amp;subtraction/BackgroundSubtractor.py" />
+        <option value="$PROJECT_DIR$/DNN/YOLO/TestYolo.py" />
+        <option value="$PROJECT_DIR$/patternRecognition/hazmatDetection/HazmatDetector.py" />
       </list>
     </option>
   </component>
@@ -208,11 +199,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="50" />
-    <option name="y" value="5" />
-    <option name="width" value="1825" />
-    <option name="height" value="1065" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="92" />
+    <option name="y" value="26" />
+    <option name="width" value="1725" />
+    <option name="height" value="1008" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -230,7 +221,7 @@
             <path>
               <item name="BigProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="BigProject" type="462c0819:PsiDirectoryNode" />
-              <item name="detection" type="462c0819:PsiDirectoryNode" />
+              <item name="qt" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -247,19 +238,19 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Programming\Python-Workpace\BigProject\DNN\YOLO" />
-      <recent name="D:\Programming\Python-Workpace\BigProject\patternRecognition\hazmatDetection" />
-      <recent name="D:\Programming\Python-Workpace\BigProject\patternRecognition\hazmatDetection\haznatImagetemplates" />
-      <recent name="D:\Programming\Python-Workpace\BigProject\Opencv Binaries" />
-      <recent name="D:\Programming\Python-Workpace\BigProject\patternRecognition\sift" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Programming\Python-Workpace\BigProject\DNN\YOLO" />
       <recent name="D:\Programming\Python-Workpace\BigProject\ai" />
       <recent name="D:\Programming\Python-Workpace\BigProject\detection\faceDetection" />
       <recent name="D:\Programming\Python-Workpace\BigProject\detection\templateMatching" />
       <recent name="D:\Programming\Python-Workpace\BigProject\detection\birdEyeView" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Programming\Python-Workpace\BigProject\DNN\YOLO" />
+      <recent name="D:\Programming\Python-Workpace\BigProject\patternRecognition\hazmatDetection" />
+      <recent name="D:\Programming\Python-Workpace\BigProject\patternRecognition\hazmatDetection\haznatImagetemplates" />
+      <recent name="D:\Programming\Python-Workpace\BigProject\Opencv Binaries" />
+      <recent name="D:\Programming\Python-Workpace\BigProject\patternRecognition\sift" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -456,10 +447,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="40" y="4" width="1460" height="852" extended-state="0" />
-    <editor active="true" />
+    <frame x="74" y="21" width="1380" height="806" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20285714" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22272727" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -508,32 +498,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/concepts/EffectsOnLiveVideo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-44" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/detection/FilteringKernelsAndConvolutions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concepts/KernelsAndConvolutions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/detection/SIFT_.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/concepts/GrabCut.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
@@ -678,13 +642,6 @@
     <entry file="file://$PROJECT_DIR$/ai/recognizer/trainer.yml">
       <provider selected="true" editor-type-id="LargeFileEditor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/detection/faceDetection/Face.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="68" column="8" selection-start-line="68" selection-start-column="8" selection-end-line="68" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ai/recognizer/ImageTrainer.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
@@ -736,18 +693,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/DNN/YOLO/coco.names">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DNN/YOLO/testImage1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DNN/YOLO/testImage4.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concepts/DrawAndWriteOnImage.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/detection/faceDetection/Face.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="68" column="8" selection-start-line="68" selection-start-column="8" selection-end-line="68" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/detection/templateMatching/TemplateMaching.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/patternRecognition/hazmatDetection/Test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DNN/YOLO/coco.names">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DNN/YOLO/testImage1.jpg">
-      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/patternRecognition/FastAlgorithm/FastKeyPointDetector.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -756,45 +733,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/patternRecognition/hazmatDetection/HazmatDetector.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-286">
-          <caret line="67" selection-start-line="67" selection-end-line="67" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-            <marker date="1565263272322" expanded="true" signature="71:211" ph="..." />
-            <marker date="1565263272322" expanded="true" signature="572:602" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/detection/templateMatching/TemplateMaching.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DNN/YOLO/TestYolo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="46" column="31" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
+        <state relative-caret-position="1892">
+          <caret line="87" column="30" selection-start-line="87" selection-start-column="30" selection-end-line="87" selection-end-column="30" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
-            <marker date="1566044217802" expanded="true" signature="68:233" ph="..." />
-            <marker date="1566044217802" expanded="true" signature="266:267" ph="..." />
-            <marker date="1566044217802" expanded="true" signature="266:688" ph="..." />
+            <marker date="1566284184504" expanded="true" signature="76:246" ph="..." />
+            <marker date="1566284184504" expanded="true" signature="279:280" ph="..." />
+            <marker date="1566284184504" expanded="true" signature="279:701" ph="..." />
+            <marker date="1566284184504" expanded="true" signature="1979:1980" ph="..." />
+            <marker date="1566284184504" expanded="true" signature="1979:1984" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/detection/backgroundDetection&amp;subtraction/BackgroundSubtractorMOG.py">
+    <entry file="file://$PROJECT_DIR$/patternRecognition/hazmatDetection/HazmatDetector.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+        <state relative-caret-position="-405">
+          <caret line="76" column="62" selection-start-line="76" selection-start-column="62" selection-end-line="76" selection-end-column="62" />
           <folding>
-            <marker date="1566133969206" expanded="true" signature="32:37" ph="..." />
-            <marker date="1566133969206" expanded="true" signature="156:161" ph="..." />
+            <element signature="e#0#10#0" expanded="true" />
+            <marker date="1566385565402" expanded="true" signature="71:211" ph="..." />
+            <marker date="1566385565402" expanded="true" signature="596:626" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qt/OpenCameraView.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qt/Main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/detection/backgroundDetection&amp;subtraction/BackgroundSubtractor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="19" lean-forward="true" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+          <folding>
+            <marker date="1566139651310" expanded="true" signature="32:37" ph="..." />
+            <marker date="1566139651310" expanded="true" signature="168:169" ph="..." />
           </folding>
         </state>
       </provider>
