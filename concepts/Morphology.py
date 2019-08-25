@@ -4,7 +4,7 @@ import numpy as np
 
 def main():
     # image = cv2.imread("D:\Programming\database of image\\art3.jpg")
-    image = cv2.imread("D:\Programming\database of image\\test.png")
+    image = cv2.imread("D:\Programming\database of image\\test1.jpg")
     cv2.imshow("original", image)
 
     kernel = np.ones((5, 5), np.uint8)
