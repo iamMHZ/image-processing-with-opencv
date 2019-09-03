@@ -34,6 +34,7 @@ def main():
         # faces = cascade.detectMultiScale(frame)
 
         gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+        # optimization and noise removal
         gray = cv2.equalizeHist(gray)
         # cv2.imshow("gray" , gray)
         faces = face_cascade.detectMultiScale(gray)
