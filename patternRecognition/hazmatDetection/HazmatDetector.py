@@ -1,7 +1,7 @@
 import cv2
 import os
 
-from Hazmat import Hazmat
+from patternRecognition.hazmatDetection.Hazmat import Hazmat
 
 
 class HazmatDetector:

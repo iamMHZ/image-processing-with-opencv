@@ -40,6 +40,28 @@ def ocr(directory_path):
                     return
 
 
-path = 'D:\Programming\database of image\RoboticPatterns'
+def live_ocr():
+    cap = cv2.VideoCapture(0)
 
-ocr(path)
+    while True:
+        _, frame = cap.read()
+        frame = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+        _, frame = cv2.threshold(frame, 70, 120, cv2.THRESH_BINARY)
+        text = pytesseract.image_to_string(frame, lang='eng')
+        text = 'Output : ' + text
+        print(text)
+
+        cv2.imshow('output', frame)
+
+        key = cv2.waitKey(1)
+
+        if key == 32:
+            cv2.destroyAllWindows()
+            cap.release()
+            break
+
+
+# path = 'D:\Programming\database of image\RoboticPatterns'
+# ocr(path)
+
+# live_ocr()
