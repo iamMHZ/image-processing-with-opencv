@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="ac8e3671-484b-41e0-bf53-33d5cfce1234" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/detection/haarcascades/Face.py" beforeDir="false" afterPath="$PROJECT_DIR$/detection/haarcascades/Face.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/detection/haarcascades/FullBodyDetection.py" beforeDir="false" afterPath="$PROJECT_DIR$/detection/haarcascades/FullBodyDetection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/detection/handDetection/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/detection/handDetection/Main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patternRecognition/hazmatDetection/HazmatDetector.py" beforeDir="false" afterPath="$PROJECT_DIR$/patternRecognition/hazmatDetection/HazmatDetector.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,9 +19,11 @@
     <SUITE FILE_PATH="coverage/BigProject$ReadBarcodesLive.coverage" NAME="ReadBarcodesLive Coverage Results" MODIFIED="1567239738302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/readingBarcodes" />
     <SUITE FILE_PATH="coverage/BigProject$Unnamed.coverage" NAME="Unnamed Coverage Results" MODIFIED="1565168837970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/BigProject$KernelsAndConvolutions.coverage" NAME="KernelsAndConvolutions Coverage Results" MODIFIED="1563724004663" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/concepts" />
-    <SUITE FILE_PATH="coverage/BigProject$Main.coverage" NAME="Main Coverage Results" MODIFIED="1563961858366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/detection/handDetection" />
+    <SUITE FILE_PATH="coverage/BigProject$MotionDetection.coverage" NAME="MotionDetection Coverage Results" MODIFIED="1567505452375" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/detection" />
+    <SUITE FILE_PATH="coverage/BigProject$Main.coverage" NAME="Main Coverage Results" MODIFIED="1567505697702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/detection/handDetection" />
     <SUITE FILE_PATH="coverage/BigProject$FilteringKernelsAndConvolutions.coverage" NAME="FilteringKernelsAndConvolutions Coverage Results" MODIFIED="1563890923759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/detection" />
     <SUITE FILE_PATH="coverage/BigProject$Face.coverage" NAME="Face Coverage Results" MODIFIED="1567501263963" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/detection/haarcascades" />
+    <SUITE FILE_PATH="coverage/BigProject$BackgroundSubtractor.coverage" NAME="BackgroundSubtractor Coverage Results" MODIFIED="1567505426931" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/detection/backgroundDetection&amp;subtraction" />
     <SUITE FILE_PATH="coverage/BigProject$SIFT_.coverage" NAME="SIFT_ Coverage Results" MODIFIED="1563689528832" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/detection" />
     <SUITE FILE_PATH="coverage/BigProject$TestYolo.coverage" NAME="TestYolo Coverage Results" MODIFIED="1567504086919" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DNN/YOLO" />
     <SUITE FILE_PATH="coverage/BigProject$load_config_py3.coverage" NAME="load_config_py3 Coverage Results" MODIFIED="1564832395860" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop/opencv-contib-non-free/Build/python_loader/cv2" />
@@ -29,7 +35,7 @@
     <session id="2090198528">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="51" />
+          <entry key="project.closed" value="52" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="4" />
           <entry key="project.open.time.16" value="1" />
@@ -66,7 +72,7 @@
           <entry key="jpg" value="15" />
           <entry key="names" value="2" />
           <entry key="png" value="5" />
-          <entry key="py" value="97" />
+          <entry key="py" value="103" />
           <entry key="yml" value="1" />
         </counts>
       </usages-collector>
@@ -74,21 +80,21 @@
         <counts>
           <entry key="Image" value="22" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="97" />
+          <entry key="Python" value="103" />
           <entry key="YAML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="98" />
-          <entry key="py" value="24571" />
+          <entry key="py" value="24598" />
           <entry key="txt" value="209" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="307" />
-          <entry key="Python" value="24571" />
+          <entry key="Python" value="24598" />
         </counts>
       </usages-collector>
     </session>
@@ -96,10 +102,49 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/detection/templateMatching/TemplateMaching.py">
+        <entry file="file://$PROJECT_DIR$/detection/haarcascades/SmileDetection.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+            <state relative-caret-position="367">
+              <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/detection/MotionDetection.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="6" column="29" lean-forward="true" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/detection/backgroundDetection&amp;subtraction/BackgroundSubtractor.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/patternRecognition/hazmatDetection/HazmatDetector.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="463">
+              <caret line="112" column="36" lean-forward="true" selection-start-line="112" selection-start-column="36" selection-end-line="112" selection-end-column="36" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/readingBarcodes/ReadBarcodesLive.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -107,21 +152,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/detection/haarcascades/Face.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="52" column="37" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/detection/haarcascades/UpperBodyDetection.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-              <folding>
-                <marker date="1567502256740" expanded="true" signature="63:70" ph="..." />
-                <marker date="1567502256740" expanded="true" signature="261:554" ph="..." />
-              </folding>
+            <state relative-caret-position="220">
+              <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
             </state>
           </provider>
         </entry>
@@ -129,17 +161,21 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/detection/haarcascades/FullBodyDetection.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+            <state relative-caret-position="418">
+              <caret line="19" column="67" selection-start-line="19" selection-start-column="67" selection-end-line="19" selection-end-column="67" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/detection/haarcascades/SmileDetection.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/detection/haarcascades/UpperBodyDetection.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="28" column="59" selection-start-line="28" selection-start-column="59" selection-end-line="28" selection-end-column="59" />
+            <state relative-caret-position="235">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+              <folding>
+                <marker date="1567502256740" expanded="true" signature="63:70" ph="..." />
+                <marker date="1567502256740" expanded="true" signature="261:554" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -173,7 +209,6 @@
         <option value="$PROJECT_DIR$/detection/ContorMethods.py" />
         <option value="$PROJECT_DIR$/concepts/HistogramWithCv2.py" />
         <option value="$PROJECT_DIR$/detection/handDetection/HandDetection.py" />
-        <option value="$PROJECT_DIR$/detection/handDetection/Main.py" />
         <option value="$PROJECT_DIR$/detection/birdEyeView/Transform.py" />
         <option value="$PROJECT_DIR$/detection/birdEyeView/Main.py" />
         <option value="$PROJECT_DIR$/imageDenoising/Denoser.py" />
@@ -202,13 +237,15 @@
         <option value="$PROJECT_DIR$/qt/basics/TestBasics.py" />
         <option value="$PROJECT_DIR$/qt/mainWindowPackage/MainForTest.py" />
         <option value="$PROJECT_DIR$/opticalCharacterRecognition/ocr.py" />
-        <option value="$PROJECT_DIR$/patternRecognition/hazmatDetection/HazmatDetector.py" />
         <option value="$PROJECT_DIR$/detection/faceDetection/UpperBody Detection.py" />
-        <option value="$PROJECT_DIR$/detection/haarcascades/Face.py" />
         <option value="$PROJECT_DIR$/detection/haarcascades/UpperBody Detection.py" />
-        <option value="$PROJECT_DIR$/detection/haarcascades/FullBodyDetection.py" />
         <option value="$PROJECT_DIR$/DNN/YOLO/TestYolo.py" />
         <option value="$PROJECT_DIR$/detection/haarcascades/SmileDetection.py" />
+        <option value="$PROJECT_DIR$/detection/haarcascades/Face.py" />
+        <option value="$PROJECT_DIR$/detection/handDetection/Main.py" />
+        <option value="$PROJECT_DIR$/detection/haarcascades/FullBodyDetection.py" />
+        <option value="$PROJECT_DIR$/patternRecognition/hazmatDetection/HazmatDetector.py" />
+        <option value="$PROJECT_DIR$/readingBarcodes/ReadBarcodesLive.py" />
       </list>
     </option>
   </component>
@@ -218,11 +255,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="126" />
-    <option name="y" value="15" />
-    <option name="width" value="1755" />
-    <option name="height" value="1065" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="80" />
+    <option name="y" value="10" />
+    <option name="width" value="1405" />
+    <option name="height" value="854" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -240,13 +277,7 @@
             <path>
               <item name="BigProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="BigProject" type="462c0819:PsiDirectoryNode" />
-              <item name="detection" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BigProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BigProject" type="462c0819:PsiDirectoryNode" />
-              <item name="detection" type="462c0819:PsiDirectoryNode" />
-              <item name="haarcascades" type="462c0819:PsiDirectoryNode" />
+              <item name="DNN" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -290,8 +321,30 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.TestYolo">
-    <configuration name="Face" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.Main">
+    <configuration name="BackgroundSubtractor" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="BigProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/detection/backgroundDetection&amp;subtraction" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/detection/backgroundDetection&amp;subtraction/BackgroundSubtractor.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="EyeDetection" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="BigProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -304,7 +357,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/detection/haarcascades/Face.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/detection/haarcascades/EyeDetection.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -313,7 +366,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ReadBarcodesLive" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="BigProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -321,12 +374,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/readingBarcodes" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/detection/handDetection" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/readingBarcodes/ReadBarcodesLive.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/detection/handDetection/Main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -335,7 +388,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="SaveImages" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="MotionDetection" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="BigProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -343,12 +396,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ai/recognizer" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/detection" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ai/recognizer/SaveImages.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/detection/MotionDetection.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -401,43 +454,21 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="load_config_py3" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="BigProject" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Desktop/opencv-contib-non-free/Build/python_loader/cv2" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$USER_HOME$/Desktop/opencv-contib-non-free/Build/python_loader/cv2/load_config_py3.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Python.Unnamed" />
-      <item itemvalue="Python.load_config_py3" />
-      <item itemvalue="Python.SaveImages" />
-      <item itemvalue="Python.ReadBarcodesLive" />
-      <item itemvalue="Python.Face" />
       <item itemvalue="Python.TestYolo" />
+      <item itemvalue="Python.EyeDetection" />
+      <item itemvalue="Python.BackgroundSubtractor" />
+      <item itemvalue="Python.MotionDetection" />
+      <item itemvalue="Python.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Main" />
+        <item itemvalue="Python.MotionDetection" />
+        <item itemvalue="Python.BackgroundSubtractor" />
+        <item itemvalue="Python.EyeDetection" />
         <item itemvalue="Python.TestYolo" />
-        <item itemvalue="Python.Face" />
-        <item itemvalue="Python.ReadBarcodesLive" />
-        <item itemvalue="Python.SaveImages" />
-        <item itemvalue="Python.load_config_py3" />
       </list>
     </recent_temporary>
   </component>
@@ -508,7 +539,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567505294937</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Smile detection has BUG with opencv classifiers">
+      <created>1567505333747</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1567505333747</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TodoView">
@@ -521,10 +559,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
+    <frame x="65" y="8" width="1123" height="682" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17583893" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24647225" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -579,20 +617,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/robotics/Controll.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imageDenoising/Denoiser.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="35" lean-forward="true" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/imageDenoising/Main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="538">
@@ -713,13 +737,6 @@
     <entry file="file://$PROJECT_DIR$/qt/basics/TestBasics.py" />
     <entry file="file://$PROJECT_DIR$/qt/qtWithOpencv/Main.py" />
     <entry file="file://$PROJECT_DIR$/qt/mainWindowPackage/MainForTest.py" />
-    <entry file="file://$PROJECT_DIR$/patternRecognition/hazmatDetection/HazmatDetector.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/readingBarcodes/barcodeAndQR.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -730,24 +747,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/readingBarcodes/ReadBarcodesLive.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="9" selection-end-line="1" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/patternRecognition/hazmatDetection/Hazmat.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
           <caret line="6" column="65" selection-start-line="6" selection-start-column="65" selection-end-line="6" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/detection/backgroundDetection&amp;subtraction/BackgroundSubtractor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -767,38 +770,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/detection/MotionDetection.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="6" column="29" lean-forward="true" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/detection/haarcascades/Dlib.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/detection/haarcascades/UpperBodyDetection.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <marker date="1567502256740" expanded="true" signature="63:70" ph="..." />
-            <marker date="1567502256740" expanded="true" signature="261:554" ph="..." />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DNN/YOLO/TestYolo.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1049">
           <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/detection/haarcascades/FullBodyDetection.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -809,17 +787,83 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/detection/haarcascades/Face.py">
+    <entry file="file://$PROJECT_DIR$/detection/haarcascades/SmileDetection.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="52" column="37" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="54" />
+        <state relative-caret-position="367">
+          <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/detection/haarcascades/SmileDetection.py">
+    <entry file="file://$PROJECT_DIR$/detection/haarcascades/EyeDetection.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="28" column="59" selection-start-line="28" selection-start-column="59" selection-end-line="28" selection-end-column="59" />
+        <state relative-caret-position="462">
+          <caret line="31" column="11" lean-forward="true" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/detection/haarcascades/Face.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/detection/backgroundDetection&amp;subtraction/BackgroundSubtractor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/detection/MotionDetection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="6" column="29" lean-forward="true" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/detection/handDetection/Main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/detection/haarcascades/UpperBodyDetection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <marker date="1567502256740" expanded="true" signature="63:70" ph="..." />
+            <marker date="1567502256740" expanded="true" signature="261:554" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/detection/haarcascades/FullBodyDetection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="67" selection-start-line="19" selection-start-column="67" selection-end-line="19" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/patternRecognition/hazmatDetection/HazmatDetector.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="463">
+          <caret line="112" column="36" lean-forward="true" selection-start-line="112" selection-start-column="36" selection-end-line="112" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readingBarcodes/ReadBarcodesLive.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>

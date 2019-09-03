@@ -108,10 +108,9 @@ class HazmatDetector:
                                       changed_frame, flags=2)
                 self.__show_image('matches', img)
 
+                key = cv2.waitKey(1)
+                if key == 32:
+                    camera.release()
+                    cv2.destroyAllWindows()
+                    return
             self.__show_image('result', frame)
-
-            key = cv2.waitKey(1)
-            if key == 32:
-                camera.release()
-                cv2.destroyAllWindows()
-                break

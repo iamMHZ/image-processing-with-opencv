@@ -60,7 +60,7 @@ def main():
             face_counter += 1
 
             # swapping faces
-            frame = swap_faces(frame, faces)
+            # frame = swap_faces(frame, faces)
 
         # eye detextion
         eyes = eye_cascade.detectMultiScale(gray)

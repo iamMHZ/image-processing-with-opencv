@@ -1,4 +1,4 @@
-from HandDetection import *
+from detection.handDetection.HandDetection import *
 import cv2
 
 histogram = calculate_histogram(0)

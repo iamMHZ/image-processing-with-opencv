@@ -17,7 +17,7 @@ def main():
 
         # draw body areas:
         for x, y, w, h in bodies:
-            cv2.rectangle(frame, (x, y), (x + w, y + h), (0, 0, 255), 3)
+            cv2.rectangle(frame, (x, y), (x + w, y + h), (255, 0, 0), 3)
             print(x, y, w, h)
 
         cv2.imshow(' Result ', frame)
