@@ -85,8 +85,8 @@ def start_live_object_recognition():
 
 
 # call to functions:
-image = cv2.imread('testImage2.jpg')
-result = object_detection_yolo(image)
-show_result('result', result, 0)
+# image = cv2.imread('testImage2.jpg')
+# result = object_detection_yolo(image)
+# show_result('result', result, 0)
 
-# start_live_object_recognition()
+start_live_object_recognition()
