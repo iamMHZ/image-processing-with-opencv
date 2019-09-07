@@ -70,14 +70,14 @@
           <entry key="JPG" value="2" />
           <entry key="jpg" value="15" />
           <entry key="names" value="2" />
-          <entry key="png" value="5" />
+          <entry key="png" value="7" />
           <entry key="py" value="104" />
           <entry key="yml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Image" value="22" />
+          <entry key="Image" value="24" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="Python" value="104" />
           <entry key="YAML" value="1" />
@@ -86,14 +86,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="98" />
-          <entry key="py" value="26024" />
-          <entry key="txt" value="414" />
+          <entry key="py" value="26604" />
+          <entry key="txt" value="445" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="512" />
-          <entry key="Python" value="26024" />
+          <entry key="PLAIN_TEXT" value="543" />
+          <entry key="Python" value="26604" />
         </counts>
       </usages-collector>
     </session>
@@ -103,17 +103,23 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/detection/faceDetectionWithDlib/BlinkingDetection.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="433">
-              <caret line="31" column="59" selection-start-line="31" selection-start-column="59" selection-end-line="31" selection-end-column="59" />
+            <state relative-caret-position="565">
+              <caret line="71" column="50" selection-start-line="71" selection-start-column="50" selection-end-line="71" selection-end-column="50" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
-                <marker date="1567849991416" expanded="true" signature="241:1255" ph="..." />
-                <marker date="1567849991416" expanded="true" signature="1103:1255" ph="..." />
-                <marker date="1567849991416" expanded="true" signature="1266:1271" ph="..." />
-                <marker date="1567849991416" expanded="true" signature="1266:1875" ph="..." />
+                <marker date="1567852200483" expanded="true" signature="230:3149" ph="..." />
+                <marker date="1567852200483" expanded="true" signature="2847:2960" ph="..." />
+                <marker date="1567852200483" expanded="true" signature="2997:3149" ph="..." />
+                <marker date="1567852200483" expanded="true" signature="3160:3165" ph="..." />
+                <marker date="1567852200483" expanded="true" signature="3160:3804" ph="..." />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/detection/faceDetectionWithDlib/facemarks points.png">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
     </leaf>
@@ -237,19 +243,19 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Programming\Python-Workpace\BigProject\qt\basics" />
-      <recent name="D:\Programming\Python-Workpace\BigProject\qt\mainWindowPackage" />
-      <recent name="D:\Programming\Python-Workpace\BigProject\DNN\YOLO" />
-      <recent name="D:\Programming\Python-Workpace\BigProject\ai" />
-      <recent name="D:\Programming\Python-Workpace\BigProject\detection\faceDetection" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Programming\Python-Workpace\BigProject\detection\faceDetectionWithDlib" />
       <recent name="D:\Programming\Python-Workpace\BigProject\opticalCharacterRecognition" />
       <recent name="D:\Programming\Python-Workpace\BigProject" />
       <recent name="D:\Programming\Python-Workpace\BigProject\DNN\YOLO" />
       <recent name="D:\Programming\Python-Workpace\BigProject\patternRecognition\hazmatDetection" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Programming\Python-Workpace\BigProject\qt\basics" />
+      <recent name="D:\Programming\Python-Workpace\BigProject\qt\mainWindowPackage" />
+      <recent name="D:\Programming\Python-Workpace\BigProject\DNN\YOLO" />
+      <recent name="D:\Programming\Python-Workpace\BigProject\ai" />
+      <recent name="D:\Programming\Python-Workpace\BigProject\detection\faceDetection" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -524,7 +530,21 @@
       <option name="project" value="LOCAL" />
       <updated>1567849837141</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="face landmarks image">
+      <created>1567850029021</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1567850029021</updated>
+    </task>
+    <task id="LOCAL-00016" summary="face landmarks image">
+      <created>1567850205060</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1567850205060</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TodoView" selected-index="3">
@@ -582,7 +602,8 @@
     <MESSAGE value="Blinking detection First Commit" />
     <MESSAGE value="face + landmarks -&gt; detected" />
     <MESSAGE value="drawing line for blinking detection" />
-    <option name="LAST_COMMIT_MESSAGE" value="drawing line for blinking detection" />
+    <MESSAGE value="face landmarks image" />
+    <option name="LAST_COMMIT_MESSAGE" value="face landmarks image" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -600,9 +621,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/detection/templateMatching/image.JPG">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/detection/templateMatching/template.JPG">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -829,16 +847,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/detection/faceDetectionWithDlib/facemarks points.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/detection/faceDetectionWithDlib/BlinkingDetection.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="31" column="59" selection-start-line="31" selection-start-column="59" selection-end-line="31" selection-end-column="59" />
+        <state relative-caret-position="565">
+          <caret line="71" column="50" selection-start-line="71" selection-start-column="50" selection-end-line="71" selection-end-column="50" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
-            <marker date="1567849991416" expanded="true" signature="241:1255" ph="..." />
-            <marker date="1567849991416" expanded="true" signature="1103:1255" ph="..." />
-            <marker date="1567849991416" expanded="true" signature="1266:1271" ph="..." />
-            <marker date="1567849991416" expanded="true" signature="1266:1875" ph="..." />
+            <marker date="1567852200483" expanded="true" signature="230:3149" ph="..." />
+            <marker date="1567852200483" expanded="true" signature="2847:2960" ph="..." />
+            <marker date="1567852200483" expanded="true" signature="2997:3149" ph="..." />
+            <marker date="1567852200483" expanded="true" signature="3160:3165" ph="..." />
+            <marker date="1567852200483" expanded="true" signature="3160:3804" ph="..." />
           </folding>
         </state>
       </provider>
