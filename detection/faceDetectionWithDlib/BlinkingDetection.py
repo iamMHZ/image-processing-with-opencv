@@ -1,9 +1,13 @@
 import cv2
 import dlib
 from math import hypot
+import pyttsx3
+import threading
+import time
 
 face_detector = dlib.get_frontal_face_detector()
 landmarks_predictor = dlib.shape_predictor("shape_predictor_68_face_landmarks.dat")
+speackEngine = pyttsx3.init()
 
 
 def draw_all_landmarks(frame, gray_frame, face):
@@ -18,6 +22,13 @@ def draw_all_landmarks(frame, gray_frame, face):
 def draw_line(frame, point1, point2):
     color = (0, 0, 255)
     cv2.line(frame, point1, point2, color, 1)
+
+
+def check_blinking(original_frame, face, right_ratio, left_ratio):
+    if left_ratio > 4.4 and right_ratio > 4.4:
+        draw_face_rectangle(original_frame, face)
+        cv2.putText(original_frame, "** BLINKING ***", (100, 100), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 255))
+        say("Blinking")
 
 
 def detect_blinking(original_frame, gray_frame, face):
@@ -64,12 +75,17 @@ def detect_blinking(original_frame, gray_frame, face):
     left_eye_vertical_line_length = hypot((left_up_middle[0] - left_down_middle[0]),
                                           (left_up_middle[1] - left_down_middle[1]))
 
-    # print(left_eye_horizental_line_length / left_eye_vertical_line_length)
-
-    right_eye_horizental_line_length = hypot((landmark43[0] - landmark45[0]), (landmark43[1] - landmark45[1]))
+    right_eye_horizental_line_length = hypot((landmark42[0] - landmark45[0]), (landmark42[1] - landmark45[1]))
     right_eye_vertical_line_length = hypot((right_up_middle[0] - right_down_middle[0]),
                                            (right_up_middle[1] - right_down_middle[1]))
-    print(right_eye_horizental_line_length / right_eye_vertical_line_length)
+
+    right_ratio = right_eye_horizental_line_length / right_eye_vertical_line_length
+    left_ratio = left_eye_horizental_line_length / left_eye_vertical_line_length
+
+    print("right :   " + str(right_ratio))
+    print("left :   " + str(left_ratio))
+
+    check_blinking(original_frame, face, right_ratio, left_ratio)
 
 
 def get_middle(point1, point2):
@@ -77,12 +93,17 @@ def get_middle(point1, point2):
     return middle_point
 
 
+def say(word):
+    threading.Thread(target=lambda a: (speackEngine.say(word),
+                                       speackEngine.runAndWait()), args=(word,)).start()
+
+
 def draw_face_rectangle(frame, face):
     x1 = face.left()
     y1 = face.top()
     x2 = face.right()
     y2 = face.bottom()
-    cv2.rectangle(frame, (x1, y1), (x2, y2), (100, 200, 0), 2)
+    cv2.rectangle(frame, (x1, y1), (x2, y2), (0, 0, 255), 2)
 
 
 def main():
