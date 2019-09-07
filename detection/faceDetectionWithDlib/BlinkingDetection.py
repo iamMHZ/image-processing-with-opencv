@@ -16,13 +16,22 @@ def draw_all_landmarks(frame, gray_frame, face):
         # logging.info("landmark : " + str(i) + "location :  " + str(x) + "," + str(y))
 
 
+def draw_line(frame, point1, point2):
+    color = (0, 0, 255)
+    cv2.line(frame, point1, point2, color)
+
+
 def detect_blinking(original_frame, gray_frame, face):
     landmarks = landmarks_predictor(gray_frame, face)
+
+    # left_eye :
+    landmark36 = landmarks.part(36).x, landmarks.part(36).y
+    landmark39 = landmarks.part(39).x, landmarks.part(36).y
 
     landmark36 = landmarks.part(36).x, landmarks.part(36).y
     landmark39 = landmarks.part(39).x, landmarks.part(36).y
 
-    cv2.line(original_frame, landmark36, landmark39, (0, 0, 255))
+    draw_line(original_frame, landmark36, landmark39)
 
 
 def draw_face_rectangle(frame, face):
