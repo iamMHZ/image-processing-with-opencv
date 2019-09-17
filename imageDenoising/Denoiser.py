@@ -5,11 +5,12 @@ import numpy as np
     created by MHZ 
 """
 
+""" denoising techniques  are based on the documentation :
+   please read the following  docs: https://docs.opencv.org/trunk/d5/d69/tutorial_py_non_local_means.html
+   https://docs.opencv.org/3.0-beta/modules/imgproc/doc/filtering.html
+   add methods for denoising Video streams use methods like : cv2.fastNlMeansDenoisingMulti()
+"""
 
-# denoising techniques  are based on the documentation :
-# TODO :  please read the following  docs: https://docs.opencv.org/trunk/d5/d69/tutorial_py_non_local_means.html
-# TODO :  https://docs.opencv.org/3.0-beta/modules/imgproc/doc/filtering.html
-# TODO : add methods for denoising Video streams use methods like : cv2.fastNlMeansDenoisingMulti()
 
 class Denoiser:
 
