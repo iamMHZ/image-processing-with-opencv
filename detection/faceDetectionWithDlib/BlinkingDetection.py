@@ -27,8 +27,12 @@ def draw_line(frame, point1, point2):
 def check_blinking(original_frame, face, right_ratio, left_ratio):
     if left_ratio > 4.42 and right_ratio > 4.42:
         draw_face_rectangle(original_frame, face)
-        cv2.putText(original_frame, "*** BLINKING ***", (100, 100), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 255),3)
+        cv2.putText(original_frame, "*** Closed EYES ***", (100, 100), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 255), 3)
+
         # say("Blinking")
+        return True
+
+    return False
 
 
 def get_middle(point1, point2):
@@ -56,7 +60,7 @@ def detect_blinking(original_frame, gray_frame, face):
     point36 = landmark_to_point(landmarks, 36)
     point39 = landmark_to_point(landmarks, 39)
 
-    draw_line(original_frame, point36, point39)
+    # draw_line(original_frame, point36, point39)
     # vertical line:
     point37 = landmark_to_point(landmarks, 37)
     point38 = landmark_to_point(landmarks, 38)
@@ -67,14 +71,14 @@ def detect_blinking(original_frame, gray_frame, face):
     left_up_middle = get_middle(point37, point38)
     left_down_middle = get_middle(point40, point41)
 
-    draw_line(original_frame, left_up_middle, left_down_middle)
+    # draw_line(original_frame, left_up_middle, left_down_middle)
 
     # right eye :
     # horizontal line:
     point42 = landmark_to_point(landmarks, 42)
     point45 = landmark_to_point(landmarks, 45)
 
-    draw_line(original_frame, point42, point45)
+    # draw_line(original_frame, point42, point45)
     # vertical line:
     point43 = landmark_to_point(landmarks, 43)
     point44 = landmark_to_point(landmarks, 44)
@@ -85,7 +89,7 @@ def detect_blinking(original_frame, gray_frame, face):
     right_up_middle = get_middle(point43, point44)
     right_down_middle = get_middle(point46, point47)
 
-    draw_line(original_frame, right_up_middle, right_down_middle)
+    # draw_line(original_frame, right_up_middle, right_down_middle)
 
     # blinking detection :
     left_eye_horizontal_line_length = get_line_length(point36, point39)
@@ -100,7 +104,7 @@ def detect_blinking(original_frame, gray_frame, face):
     print("right :   " + str(right_ratio))
     print("left :   " + str(left_ratio) + "\n\n")
 
-    check_blinking(original_frame, face, right_ratio, left_ratio)
+    return check_blinking(original_frame, face, right_ratio, left_ratio)
 
 
 def say(word):
@@ -118,10 +122,13 @@ def draw_face_rectangle(frame, face):
 
 def main():
     cap = cv2.VideoCapture(0)
-
+    counter = 0
     while cap.isOpened():
+
         _, frame = cap.read()
         frame = cv2.flip(frame, 1)
+
+        cv2.putText(frame, str(counter), (30, 50), cv2.FONT_HERSHEY_DUPLEX, 2, (255, 0, 0), 1)
 
         gray_frame = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
 
@@ -132,14 +139,17 @@ def main():
             # draw_face_rectangle(frame, face)
 
             # draw_all_landmarks(frame, gray_frame, face)
-            detect_blinking(frame, gray_frame, face)
+            ret = detect_blinking(frame, gray_frame, face)
 
-        cv2.imshow("original", frame)
-        key = cv2.waitKey(1)
-        if key == 32:
-            cv2.destroyAllWindows()
-            cap.release()
-            break
+            if ret:
+                counter += 1
+
+            cv2.imshow("original", frame)
+            key = cv2.waitKey(1)
+            if key == 32:
+                cv2.destroyAllWindows()
+                cap.release()
+                break
 
 
 if __name__ == "__main__":

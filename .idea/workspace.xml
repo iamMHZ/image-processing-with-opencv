@@ -2,11 +2,89 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac8e3671-484b-41e0-bf53-33d5cfce1234" name="Default Changelist" comment="Blinking detection -&gt; still sensitive to angle #bug">
-      <change beforePath="$PROJECT_DIR$/.idea/BigProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/BigProject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image_denoising/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reading_barcodes/barcode/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Opencv Binaries/opencv_python-4.1.1+contrib-cp36-cp36m-win_amd64.whl" beforeDir="false" afterPath="$PROJECT_DIR$/opencv_binaries/opencv_python-4.1.1+contrib-cp36-cp36m-win_amd64.whl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Opencv Binaries/opencv_python-4.1.1+contrib-cp37-cp37m-win32.whl" beforeDir="false" afterPath="$PROJECT_DIR$/opencv_binaries/opencv_python-4.1.1+contrib-cp37-cp37m-win32.whl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Opencv Binaries/opencv_python-4.1.1+contrib-cp37-cp37m-win_amd64.whl" beforeDir="false" afterPath="$PROJECT_DIR$/opencv_binaries/opencv_python-4.1.1+contrib-cp37-cp37m-win_amd64.whl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ai/Test.py" beforeDir="false" afterPath="$PROJECT_DIR$/face_recognizer/Test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ai/recognizer/ImageTrainer.py" beforeDir="false" afterPath="$PROJECT_DIR$/face_recognizer/recognizer/ImageTrainer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ai/recognizer/SaveImages.py" beforeDir="false" afterPath="$PROJECT_DIR$/face_recognizer/recognizer/SaveImages.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ai/recognizer/faceRecognizer.py" beforeDir="false" afterPath="$PROJECT_DIR$/face_recognizer/recognizer/faceRecognizer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ai/recognizer/labels.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/face_recognizer/recognizer/labels.pickle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ai/recognizer/trainer.yml" beforeDir="false" afterPath="$PROJECT_DIR$/face_recognizer/recognizer/trainer.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/barcode/ReadBarcodes.py" beforeDir="false" afterPath="$PROJECT_DIR$/reading_barcodes/ReadBarcodes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/barcode/ReadBarcodesLive.py" beforeDir="false" afterPath="$PROJECT_DIR$/reading_barcodes/ReadBarcodesLive.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/barcode/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/image_denoising/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/barcode/barcodeAndQR.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/reading_barcodes/barcode/barcodeAndQR.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/detection/faceDetectionWithDlib/BlinkingDetection.py" beforeDir="false" afterPath="$PROJECT_DIR$/detection/faceDetectionWithDlib/BlinkingDetection.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patternRecognition/hazmatDetection/HazmatDetector.py" beforeDir="false" afterPath="$PROJECT_DIR$/patternRecognition/hazmatDetection/HazmatDetector.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imageDenoising/Denoiser.py" beforeDir="false" afterPath="$PROJECT_DIR$/image_denoising/Denoiser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imageDenoising/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/image_denoising/Main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imageDenoising/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/reading_barcodes/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/numpy/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/reading_barcodes/barcode/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/opticalCharacterRecognition/ocr.py" beforeDir="false" afterPath="$PROJECT_DIR$/optical_character_recognition/ocr.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/opticalCharacterRecognition/test1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/optical_character_recognition/test1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/opticalCharacterRecognition/test2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/optical_character_recognition/test2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/opticalCharacterRecognition/test3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/optical_character_recognition/test3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/opticalCharacterRecognition/test4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/optical_character_recognition/test4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patternRecognition/FastAlgorithm/FastKeyPointDetector.py" beforeDir="false" afterPath="$PROJECT_DIR$/sign_recognition/FastAlgorithm/FastKeyPointDetector.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patternRecognition/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/sign_recognition/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patternRecognition/hazmatDetection/Hazmat.py" beforeDir="false" afterPath="$PROJECT_DIR$/sign_recognition/hazmatDetection/Hazmat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patternRecognition/hazmatDetection/HazmatDetector.py" beforeDir="false" afterPath="$PROJECT_DIR$/sign_recognition/hazmatDetection/HazmatDetector.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patternRecognition/hazmatDetection/Test.py" beforeDir="false" afterPath="$PROJECT_DIR$/sign_recognition/hazmatDetection/Test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patternRecognition/hazmatDetection/hazmatImagetemplates/BALSTING AGENT 1.5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sign_recognition/hazmatDetection/hazmatImagetemplates/BALSTING AGENT 1.5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patternRecognition/hazmatDetection/hazmatImagetemplates/EXPLOSIVE.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sign_recognition/hazmatDetection/hazmatImagetemplates/EXPLOSIVE.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patternRecognition/hazmatDetection/hazmatImagetemplates/FLANNABLE GAS.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sign_recognition/hazmatDetection/hazmatImagetemplates/FLANNABLE GAS.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patternRecognition/hazmatDetection/hazmatImagetemplates/ORGANIC PERXIDE 5.2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sign_recognition/hazmatDetection/hazmatImagetemplates/ORGANIC PERXIDE 5.2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patternRecognition/hazmatDetection/hazmatImagetemplates/RADIOACTIVE.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sign_recognition/hazmatDetection/hazmatImagetemplates/RADIOACTIVE.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patternRecognition/sift/FeatureDetection.py" beforeDir="false" afterPath="$PROJECT_DIR$/sign_recognition/sift/FeatureDetection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patternRecognition/sift/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/sign_recognition/sift/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patternRecognition/sift/peroxide.png" beforeDir="false" afterPath="$PROJECT_DIR$/sign_recognition/sift/peroxide.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patternRecognition/sift/testImage.tif" beforeDir="false" afterPath="$PROJECT_DIR$/sign_recognition/sift/testImage.tif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patternRecognition/templateMatching/Access.py" beforeDir="false" afterPath="$PROJECT_DIR$/sign_recognition/templateMatching/Access.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patternRecognition/templateMatching/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/sign_recognition/templateMatching/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readingBarcodes/ReadBarcodes.py" beforeDir="false" afterPath="$PROJECT_DIR$/reading_barcodes/barcode/ReadBarcodes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readingBarcodes/ReadBarcodesLive.py" beforeDir="false" afterPath="$PROJECT_DIR$/reading_barcodes/barcode/ReadBarcodesLive.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readingBarcodes/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/readingBarcodes/barcodeAndQR.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/reading_barcodes/barcodeAndQR.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorflow/Test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorflow/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools-39.1.0-py3.7.egg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools.pth" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/six-1.12.0.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/six-1.12.0.dist-info/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/six-1.12.0.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/six-1.12.0.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/six-1.12.0.dist-info/WHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/six-1.12.0.dist-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/six.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/Activate.ps1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/activate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/activate.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/deactivate.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/easy_install-3.7-script.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/easy_install-3.7.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/easy_install-3.7.exe.manifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/easy_install-script.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/easy_install.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/easy_install.exe.manifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/f2py.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/pip.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/pip3.7.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/pip3.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/pylupdate5.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/pyrcc5.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/python.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/python_d.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/pythonw.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/pythonw_d.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/pyuic5.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/read_zbar.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/read_zbar.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/opencv_videoio_ffmpeg411.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/pip-selfcheck.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/pyvenv.cfg" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,7 +95,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/BigProject$Salt.coverage" NAME="Salt Coverage Results" MODIFIED="1563428753895" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/concepts" />
     <SUITE FILE_PATH="coverage/BigProject$ReadBarcodesLive.coverage" NAME="ReadBarcodesLive Coverage Results" MODIFIED="1567239738302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/readingBarcodes" />
-    <SUITE FILE_PATH="coverage/BigProject$BlinkingDetection.coverage" NAME="BlinkingDetection Coverage Results" MODIFIED="1570990219439" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/detection/faceDetectionWithDlib" />
+    <SUITE FILE_PATH="coverage/BigProject$BlinkingDetection.coverage" NAME="BlinkingDetection Coverage Results" MODIFIED="1571497674516" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/detection/faceDetectionWithDlib" />
     <SUITE FILE_PATH="coverage/BigProject$Unnamed.coverage" NAME="Unnamed Coverage Results" MODIFIED="1565168837970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/BigProject$KernelsAndConvolutions.coverage" NAME="KernelsAndConvolutions Coverage Results" MODIFIED="1563724004663" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/concepts" />
     <SUITE FILE_PATH="coverage/BigProject$MotionDetection.coverage" NAME="MotionDetection Coverage Results" MODIFIED="1567750208136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/detection" />
@@ -25,6 +103,7 @@
     <SUITE FILE_PATH="coverage/BigProject$FilteringKernelsAndConvolutions.coverage" NAME="FilteringKernelsAndConvolutions Coverage Results" MODIFIED="1563890923759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/detection" />
     <SUITE FILE_PATH="coverage/BigProject$Face.coverage" NAME="Face Coverage Results" MODIFIED="1567501263963" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/detection/haarcascades" />
     <SUITE FILE_PATH="coverage/BigProject$BackgroundSubtractor.coverage" NAME="BackgroundSubtractor Coverage Results" MODIFIED="1567750179169" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/detection/backgroundDetection&amp;subtraction" />
+    <SUITE FILE_PATH="coverage/BigProject$Test__1_.coverage" NAME="Test (1) Coverage Results" MODIFIED="1584039186259" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cuda" />
     <SUITE FILE_PATH="coverage/BigProject$SIFT_.coverage" NAME="SIFT_ Coverage Results" MODIFIED="1563689528832" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/detection" />
     <SUITE FILE_PATH="coverage/BigProject$UpperBodyDetection.coverage" NAME="UpperBodyDetection Coverage Results" MODIFIED="1567849614936" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/detection/haarcascades" />
     <SUITE FILE_PATH="coverage/BigProject$TestYolo.coverage" NAME="TestYolo Coverage Results" MODIFIED="1567504086919" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DNN/YOLO" />
@@ -38,16 +117,16 @@
     <session id="2090198528">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="59" />
+          <entry key="project.closed" value="63" />
           <entry key="project.open.time.0" value="3" />
-          <entry key="project.open.time.1" value="6" />
+          <entry key="project.open.time.1" value="7" />
           <entry key="project.open.time.11" value="1" />
-          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.12" value="2" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.19" value="1" />
-          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.20" value="2" />
           <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.22" value="2" />
@@ -59,7 +138,7 @@
           <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.29" value="1" />
           <entry key="project.open.time.30" value="2" />
-          <entry key="project.open.time.31" value="3" />
+          <entry key="project.open.time.31" value="4" />
           <entry key="project.open.time.32" value="1" />
           <entry key="project.open.time.33" value="1" />
           <entry key="project.open.time.34" value="2" />
@@ -69,7 +148,7 @@
           <entry key="project.open.time.47" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="60" />
+          <entry key="project.opened" value="64" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -78,7 +157,7 @@
           <entry key="jpg" value="15" />
           <entry key="names" value="2" />
           <entry key="png" value="7" />
-          <entry key="py" value="113" />
+          <entry key="py" value="125" />
           <entry key="yml" value="1" />
         </counts>
       </usages-collector>
@@ -86,21 +165,21 @@
         <counts>
           <entry key="Image" value="24" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="113" />
+          <entry key="Python" value="125" />
           <entry key="YAML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="111" />
-          <entry key="py" value="27699" />
-          <entry key="txt" value="607" />
+          <entry key="py" value="27920" />
+          <entry key="txt" value="692" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="718" />
-          <entry key="Python" value="27699" />
+          <entry key="PLAIN_TEXT" value="803" />
+          <entry key="Python" value="27920" />
         </counts>
       </usages-collector>
     </session>
@@ -110,28 +189,28 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/detection/faceDetectionWithDlib/BlinkingDetection.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="29" column="40" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
+            <state relative-caret-position="176">
+              <caret line="8" column="11" lean-forward="true" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
-                <marker date="1570991500923" expanded="true" signature="304:3708" ph="..." />
-                <marker date="1570991500923" expanded="true" signature="1306:1436" ph="..." />
-                <marker date="1570991500923" expanded="true" signature="1345:1436" ph="..." />
-                <marker date="1570991500923" expanded="true" signature="3351:3521" ph="..." />
-                <marker date="1570991500923" expanded="true" signature="3366:3521" ph="..." />
-                <marker date="1570991500923" expanded="true" signature="3519:3521" ph="..." />
-                <marker date="1570991500923" expanded="true" signature="3558:3708" ph="..." />
-                <marker date="1570991500923" expanded="true" signature="3719:3724" ph="..." />
-                <marker date="1570991500923" expanded="true" signature="3719:4363" ph="..." />
+                <marker date="1571498662466" expanded="true" signature="304:3766" ph="..." />
+                <marker date="1571498662466" expanded="true" signature="1349:1479" ph="..." />
+                <marker date="1571498662466" expanded="true" signature="1388:1479" ph="..." />
+                <marker date="1571498662466" expanded="true" signature="3409:3579" ph="..." />
+                <marker date="1571498662466" expanded="true" signature="3424:3579" ph="..." />
+                <marker date="1571498662466" expanded="true" signature="3577:3579" ph="..." />
+                <marker date="1571498662466" expanded="true" signature="3616:3766" ph="..." />
+                <marker date="1571498662466" expanded="true" signature="3777:3782" ph="..." />
+                <marker date="1571498662466" expanded="true" signature="3777:4613" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/patternRecognition/hazmatDetection/HazmatDetector.py">
+        <entry file="file://$PROJECT_DIR$/sign_recognition/hazmatDetection/HazmatDetector.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1760">
+            <state relative-caret-position="1826">
               <caret line="83" column="84" selection-start-line="83" selection-start-column="12" selection-end-line="83" selection-end-column="93" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
@@ -141,7 +220,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/patternRecognition/hazmatDetection/Hazmat.py">
+        <entry file="file://$PROJECT_DIR$/sign_recognition/hazmatDetection/Hazmat.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="22">
               <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
@@ -153,7 +232,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/patternRecognition/hazmatDetection/Test.py">
+        <entry file="file://$PROJECT_DIR$/sign_recognition/hazmatDetection/Test.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="176">
               <caret line="8" selection-start-line="8" selection-end-line="8" />
@@ -238,8 +317,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="160" />
-    <option name="y" value="95" />
+    <option name="x" value="240" />
+    <option name="y" value="55" />
     <option name="width" value="1405" />
     <option name="height" value="855" />
   </component>
@@ -249,7 +328,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -257,57 +335,11 @@
               <item name="BigProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="BigProject" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="BigProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BigProject" type="462c0819:PsiDirectoryNode" />
-              <item name="detection" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BigProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BigProject" type="462c0819:PsiDirectoryNode" />
-              <item name="detection" type="462c0819:PsiDirectoryNode" />
-              <item name="faceDetectionWithDlib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BigProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BigProject" type="462c0819:PsiDirectoryNode" />
-              <item name="imageDenoising" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BigProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BigProject" type="462c0819:PsiDirectoryNode" />
-              <item name="Opencv Binaries" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BigProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BigProject" type="462c0819:PsiDirectoryNode" />
-              <item name="opticalCharacterRecognition" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BigProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BigProject" type="462c0819:PsiDirectoryNode" />
-              <item name="patternRecognition" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BigProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BigProject" type="462c0819:PsiDirectoryNode" />
-              <item name="patternRecognition" type="462c0819:PsiDirectoryNode" />
-              <item name="hazmatDetection" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BigProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BigProject" type="462c0819:PsiDirectoryNode" />
-              <item name="readingBarcodes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BigProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BigProject" type="462c0819:PsiDirectoryNode" />
-              <item name="robotics" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -345,29 +377,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.BlinkingDetection">
-    <configuration name="BackgroundSubtractor" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="BigProject" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/detection/backgroundDetection&amp;subtraction" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/detection/backgroundDetection&amp;subtraction/BackgroundSubtractor.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.Test (1)">
     <configuration name="BlinkingDetection" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="BigProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -390,7 +400,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="MotionDetection" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Line_Detection" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="BigProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -403,7 +413,29 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/detection/MotionDetection.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/detection/Line_Detection.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="BigProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/cuda" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cuda/Test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -480,19 +512,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.Unnamed" />
-      <item itemvalue="Python.BackgroundSubtractor" />
-      <item itemvalue="Python.MotionDetection" />
       <item itemvalue="Python.UpperBodyDetection" />
       <item itemvalue="Python.BlinkingDetection" />
       <item itemvalue="Python.Test" />
+      <item itemvalue="Python.Line_Detection" />
+      <item itemvalue="Python.Test (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Test (1)" />
+        <item itemvalue="Python.Line_Detection" />
         <item itemvalue="Python.BlinkingDetection" />
         <item itemvalue="Python.Test" />
         <item itemvalue="Python.UpperBodyDetection" />
-        <item itemvalue="Python.MotionDetection" />
-        <item itemvalue="Python.BackgroundSubtractor" />
       </list>
     </recent_temporary>
   </component>
@@ -640,7 +672,21 @@
       <option name="project" value="LOCAL" />
       <updated>1568697152339</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Changed the python interpreter">
+      <created>1570991647364</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1570991647364</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Refactoring BlinkingDetection">
+      <created>1570991685981</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1570991685981</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TodoView" selected-index="3">
@@ -654,14 +700,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17516778" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1885906" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32716927" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3261745" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3261745" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991655" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -702,17 +747,19 @@
     <MESSAGE value="calculating the length of each line for each eye" />
     <MESSAGE value="Blinking detection -&gt; still sensitive to angle #bug" />
     <MESSAGE value="Just comments updated :)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Just comments updated :)" />
+    <MESSAGE value="Changed the python interpreter" />
+    <MESSAGE value="Refactoring BlinkingDetection" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactoring BlinkingDetection" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/ai/recognizer/SaveImages.py</url>
+          <url>file://$PROJECT_DIR$/face_recognizer/recognizer/SaveImages.py</url>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/ai/recognizer/SaveImages.py</url>
+          <url>file://$PROJECT_DIR$/face_recognizer/recognizer/SaveImages.py</url>
           <line>5</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
@@ -720,48 +767,13 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://D:/Program Files (x86)/Python37-32/Lib/codecs.py" />
-    <entry file="file://$PROJECT_DIR$/ai/recognizer/SaveImages.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ai/recognizer/trainer.yml">
-      <provider selected="true" editor-type-id="LargeFileEditor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ai/recognizer/ImageTrainer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ai/recognizer/faceRecognizer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ai/Test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/patternRecognition/hazmatDetection/hazmatImagetemplates/RADIOACTIVE.jpg">
+    <entry file="file://$PROJECT_DIR$/sign_recognition/hazmatDetection/hazmatImagetemplates/RADIOACTIVE.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/patternRecognition/hazmatDetection/hazmatImagetemplates/ORGANIC PERXIDE 5.2.jpg">
+    <entry file="file://$PROJECT_DIR$/sign_recognition/hazmatDetection/hazmatImagetemplates/ORGANIC PERXIDE 5.2.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/patternRecognition/hazmatDetection/hazmatImagetemplates/EXPLOSIVE.jpg">
+    <entry file="file://$PROJECT_DIR$/sign_recognition/hazmatDetection/hazmatImagetemplates/EXPLOSIVE.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/DNN/YOLO/coco.names">
@@ -776,48 +788,27 @@
     <entry file="file://$PROJECT_DIR$/concepts/DrawAndWriteOnImage.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/patternRecognition/FastAlgorithm/FastKeyPointDetector.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/qt/OpenCameraView.py" />
     <entry file="file://$PROJECT_DIR$/qt/Main.py" />
     <entry file="file://$PROJECT_DIR$/qt/mainWindowPackage/MainWindow.py" />
     <entry file="file://$PROJECT_DIR$/qt/qtWithOpencv/OpenCameraView.py" />
-    <entry file="file://$PROJECT_DIR$/opticalCharacterRecognition/test1.jpg">
+    <entry file="file://$PROJECT_DIR$/optical_character_recognition/test1.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/opticalCharacterRecognition/test4.jpg">
+    <entry file="file://$PROJECT_DIR$/optical_character_recognition/test4.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/opticalCharacterRecognition/test3.jpg">
+    <entry file="file://$PROJECT_DIR$/optical_character_recognition/test3.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/opticalCharacterRecognition/test2.jpg">
+    <entry file="file://$PROJECT_DIR$/optical_character_recognition/test2.jpg">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/patternRecognition/templateMatching/Access.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="27" column="46" lean-forward="true" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="46" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/qt/basics/TestBasics.py" />
     <entry file="file://$PROJECT_DIR$/qt/qtWithOpencv/Main.py" />
     <entry file="file://$PROJECT_DIR$/qt/mainWindowPackage/MainForTest.py" />
-    <entry file="file://$PROJECT_DIR$/readingBarcodes/barcodeAndQR.jpg">
+    <entry file="file://$PROJECT_DIR$/reading_barcodes/barcodeAndQR.jpg">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/opticalCharacterRecognition/ocr.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1386">
-          <caret line="67" selection-start-line="67" selection-end-line="67" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/detection/templateMatching/TemplateMaching.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -841,7 +832,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/patternRecognition/sift/FeatureDetection.py">
+    <entry file="file://$PROJECT_DIR$/sign_recognition/sift/FeatureDetection.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-7">
           <caret line="42" column="15" selection-start-line="42" selection-start-column="15" selection-end-line="42" selection-end-column="15" />
@@ -862,7 +853,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/readingBarcodes/ReadBarcodesLive.py">
+    <entry file="file://$PROJECT_DIR$/reading_barcodes/ReadBarcodesLive.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
@@ -906,11 +897,6 @@
         <state relative-caret-position="-435" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/detection/FilteringKernelsAndConvolutions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-501" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/detection/backgroundDetection&amp;subtraction/BackgroundSubtractor.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="213">
@@ -918,7 +904,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imageDenoising/Denoiser.py">
+    <entry file="file://$PROJECT_DIR$/image_denoising/Denoiser.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
@@ -932,17 +918,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/patternRecognition/hazmatDetection/HazmatDetector.py">
+    <entry file="file://$PROJECT_DIR$/detection/EqualizingHistograms.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/detection/FilteringKernelsAndConvolutions.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1760">
-          <caret line="83" column="84" selection-start-line="83" selection-start-column="12" selection-end-line="83" selection-end-column="93" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-271" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/detection/Line_Detection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="15" lean-forward="true" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/patternRecognition/hazmatDetection/Hazmat.py">
+    <entry file="file://$PROJECT_DIR$/sign_recognition/hazmatDetection/Hazmat.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
           <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
@@ -952,28 +943,84 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/patternRecognition/hazmatDetection/Test.py">
+    <entry file="file://$PROJECT_DIR$/sign_recognition/hazmatDetection/Test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/detection/faceDetectionWithDlib/BlinkingDetection.py">
+    <entry file="file://$PROJECT_DIR$/sign_recognition/hazmatDetection/HazmatDetector.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="29" column="40" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
+        <state relative-caret-position="1826">
+          <caret line="83" column="84" selection-start-line="83" selection-start-column="12" selection-end-line="83" selection-end-column="93" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
-            <marker date="1570991500923" expanded="true" signature="304:3708" ph="..." />
-            <marker date="1570991500923" expanded="true" signature="1306:1436" ph="..." />
-            <marker date="1570991500923" expanded="true" signature="1345:1436" ph="..." />
-            <marker date="1570991500923" expanded="true" signature="3351:3521" ph="..." />
-            <marker date="1570991500923" expanded="true" signature="3366:3521" ph="..." />
-            <marker date="1570991500923" expanded="true" signature="3519:3521" ph="..." />
-            <marker date="1570991500923" expanded="true" signature="3558:3708" ph="..." />
-            <marker date="1570991500923" expanded="true" signature="3719:3724" ph="..." />
-            <marker date="1570991500923" expanded="true" signature="3719:4363" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cuda/Test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robotics/Controll.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/optical_character_recognition/ocr.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1386">
+          <caret line="67" selection-start-line="67" selection-end-line="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robotics/TestCamera.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sign_recognition/FastAlgorithm/FastKeyPointDetector.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sign_recognition/templateMatching/Access.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="27" column="46" lean-forward="true" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/detection/CornerDetecion.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/detection/faceDetectionWithDlib/BlinkingDetection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="11" lean-forward="true" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+            <marker date="1571498662466" expanded="true" signature="304:3766" ph="..." />
+            <marker date="1571498662466" expanded="true" signature="1349:1479" ph="..." />
+            <marker date="1571498662466" expanded="true" signature="1388:1479" ph="..." />
+            <marker date="1571498662466" expanded="true" signature="3409:3579" ph="..." />
+            <marker date="1571498662466" expanded="true" signature="3424:3579" ph="..." />
+            <marker date="1571498662466" expanded="true" signature="3577:3579" ph="..." />
+            <marker date="1571498662466" expanded="true" signature="3616:3766" ph="..." />
+            <marker date="1571498662466" expanded="true" signature="3777:3782" ph="..." />
+            <marker date="1571498662466" expanded="true" signature="3777:4613" ph="..." />
           </folding>
         </state>
       </provider>
