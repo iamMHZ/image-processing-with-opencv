@@ -1,4 +1,4 @@
-from HazmatDetector import HazmatDetector
+from sign_recognition.hazmatDetection.HazmatDetector import HazmatDetector
 
 detector = HazmatDetector()
 
