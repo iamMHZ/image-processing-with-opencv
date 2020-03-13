@@ -1,90 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ac8e3671-484b-41e0-bf53-33d5cfce1234" name="Default Changelist" comment="Blinking detection -&gt; still sensitive to angle #bug">
-      <change afterPath="$PROJECT_DIR$/image_denoising/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reading_barcodes/barcode/__init__.py" afterDir="false" />
+    <list default="true" id="ac8e3671-484b-41e0-bf53-33d5cfce1234" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Opencv Binaries/opencv_python-4.1.1+contrib-cp36-cp36m-win_amd64.whl" beforeDir="false" afterPath="$PROJECT_DIR$/opencv_binaries/opencv_python-4.1.1+contrib-cp36-cp36m-win_amd64.whl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Opencv Binaries/opencv_python-4.1.1+contrib-cp37-cp37m-win32.whl" beforeDir="false" afterPath="$PROJECT_DIR$/opencv_binaries/opencv_python-4.1.1+contrib-cp37-cp37m-win32.whl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Opencv Binaries/opencv_python-4.1.1+contrib-cp37-cp37m-win_amd64.whl" beforeDir="false" afterPath="$PROJECT_DIR$/opencv_binaries/opencv_python-4.1.1+contrib-cp37-cp37m-win_amd64.whl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ai/Test.py" beforeDir="false" afterPath="$PROJECT_DIR$/face_recognizer/Test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ai/recognizer/ImageTrainer.py" beforeDir="false" afterPath="$PROJECT_DIR$/face_recognizer/recognizer/ImageTrainer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ai/recognizer/SaveImages.py" beforeDir="false" afterPath="$PROJECT_DIR$/face_recognizer/recognizer/SaveImages.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ai/recognizer/faceRecognizer.py" beforeDir="false" afterPath="$PROJECT_DIR$/face_recognizer/recognizer/faceRecognizer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ai/recognizer/labels.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/face_recognizer/recognizer/labels.pickle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ai/recognizer/trainer.yml" beforeDir="false" afterPath="$PROJECT_DIR$/face_recognizer/recognizer/trainer.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/barcode/ReadBarcodes.py" beforeDir="false" afterPath="$PROJECT_DIR$/reading_barcodes/ReadBarcodes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/barcode/ReadBarcodesLive.py" beforeDir="false" afterPath="$PROJECT_DIR$/reading_barcodes/ReadBarcodesLive.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/barcode/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/image_denoising/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/barcode/barcodeAndQR.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/reading_barcodes/barcode/barcodeAndQR.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/detection/faceDetectionWithDlib/BlinkingDetection.py" beforeDir="false" afterPath="$PROJECT_DIR$/detection/faceDetectionWithDlib/BlinkingDetection.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imageDenoising/Denoiser.py" beforeDir="false" afterPath="$PROJECT_DIR$/image_denoising/Denoiser.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imageDenoising/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/image_denoising/Main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imageDenoising/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/reading_barcodes/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/numpy/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/reading_barcodes/barcode/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/opticalCharacterRecognition/ocr.py" beforeDir="false" afterPath="$PROJECT_DIR$/optical_character_recognition/ocr.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/opticalCharacterRecognition/test1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/optical_character_recognition/test1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/opticalCharacterRecognition/test2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/optical_character_recognition/test2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/opticalCharacterRecognition/test3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/optical_character_recognition/test3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/opticalCharacterRecognition/test4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/optical_character_recognition/test4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patternRecognition/FastAlgorithm/FastKeyPointDetector.py" beforeDir="false" afterPath="$PROJECT_DIR$/sign_recognition/FastAlgorithm/FastKeyPointDetector.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patternRecognition/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/sign_recognition/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patternRecognition/hazmatDetection/Hazmat.py" beforeDir="false" afterPath="$PROJECT_DIR$/sign_recognition/hazmatDetection/Hazmat.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patternRecognition/hazmatDetection/HazmatDetector.py" beforeDir="false" afterPath="$PROJECT_DIR$/sign_recognition/hazmatDetection/HazmatDetector.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patternRecognition/hazmatDetection/Test.py" beforeDir="false" afterPath="$PROJECT_DIR$/sign_recognition/hazmatDetection/Test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patternRecognition/hazmatDetection/hazmatImagetemplates/BALSTING AGENT 1.5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sign_recognition/hazmatDetection/hazmatImagetemplates/BALSTING AGENT 1.5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patternRecognition/hazmatDetection/hazmatImagetemplates/EXPLOSIVE.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sign_recognition/hazmatDetection/hazmatImagetemplates/EXPLOSIVE.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patternRecognition/hazmatDetection/hazmatImagetemplates/FLANNABLE GAS.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sign_recognition/hazmatDetection/hazmatImagetemplates/FLANNABLE GAS.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patternRecognition/hazmatDetection/hazmatImagetemplates/ORGANIC PERXIDE 5.2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sign_recognition/hazmatDetection/hazmatImagetemplates/ORGANIC PERXIDE 5.2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patternRecognition/hazmatDetection/hazmatImagetemplates/RADIOACTIVE.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sign_recognition/hazmatDetection/hazmatImagetemplates/RADIOACTIVE.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patternRecognition/sift/FeatureDetection.py" beforeDir="false" afterPath="$PROJECT_DIR$/sign_recognition/sift/FeatureDetection.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patternRecognition/sift/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/sign_recognition/sift/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patternRecognition/sift/peroxide.png" beforeDir="false" afterPath="$PROJECT_DIR$/sign_recognition/sift/peroxide.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patternRecognition/sift/testImage.tif" beforeDir="false" afterPath="$PROJECT_DIR$/sign_recognition/sift/testImage.tif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patternRecognition/templateMatching/Access.py" beforeDir="false" afterPath="$PROJECT_DIR$/sign_recognition/templateMatching/Access.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patternRecognition/templateMatching/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/sign_recognition/templateMatching/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readingBarcodes/ReadBarcodes.py" beforeDir="false" afterPath="$PROJECT_DIR$/reading_barcodes/barcode/ReadBarcodes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readingBarcodes/ReadBarcodesLive.py" beforeDir="false" afterPath="$PROJECT_DIR$/reading_barcodes/barcode/ReadBarcodesLive.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readingBarcodes/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/readingBarcodes/barcodeAndQR.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/reading_barcodes/barcodeAndQR.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorflow/Test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorflow/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools-39.1.0-py3.7.egg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools.pth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/six-1.12.0.dist-info/INSTALLER" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/six-1.12.0.dist-info/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/six-1.12.0.dist-info/METADATA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/six-1.12.0.dist-info/RECORD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/six-1.12.0.dist-info/WHEEL" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/six-1.12.0.dist-info/top_level.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/six.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/Activate.ps1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/activate" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/activate.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/deactivate.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/easy_install-3.7-script.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/easy_install-3.7.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/easy_install-3.7.exe.manifest" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/easy_install-script.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/easy_install.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/easy_install.exe.manifest" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/f2py.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/pip.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/pip3.7.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/pip3.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/pylupdate5.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/pyrcc5.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/python.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/python_d.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/pythonw.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/pythonw_d.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/pyuic5.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/read_zbar.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/read_zbar.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/opencv_videoio_ffmpeg411.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/pip-selfcheck.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/pyvenv.cfg" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -95,7 +13,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/BigProject$Salt.coverage" NAME="Salt Coverage Results" MODIFIED="1563428753895" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/concepts" />
     <SUITE FILE_PATH="coverage/BigProject$ReadBarcodesLive.coverage" NAME="ReadBarcodesLive Coverage Results" MODIFIED="1567239738302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/readingBarcodes" />
-    <SUITE FILE_PATH="coverage/BigProject$BlinkingDetection.coverage" NAME="BlinkingDetection Coverage Results" MODIFIED="1571497674516" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/detection/faceDetectionWithDlib" />
+    <SUITE FILE_PATH="coverage/BigProject$BlinkingDetection.coverage" NAME="BlinkingDetection Coverage Results" MODIFIED="1584039807800" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/detection/faceDetectionWithDlib" />
     <SUITE FILE_PATH="coverage/BigProject$Unnamed.coverage" NAME="Unnamed Coverage Results" MODIFIED="1565168837970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/BigProject$KernelsAndConvolutions.coverage" NAME="KernelsAndConvolutions Coverage Results" MODIFIED="1563724004663" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/concepts" />
     <SUITE FILE_PATH="coverage/BigProject$MotionDetection.coverage" NAME="MotionDetection Coverage Results" MODIFIED="1567750208136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/detection" />
@@ -107,6 +25,7 @@
     <SUITE FILE_PATH="coverage/BigProject$SIFT_.coverage" NAME="SIFT_ Coverage Results" MODIFIED="1563689528832" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/detection" />
     <SUITE FILE_PATH="coverage/BigProject$UpperBodyDetection.coverage" NAME="UpperBodyDetection Coverage Results" MODIFIED="1567849614936" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/detection/haarcascades" />
     <SUITE FILE_PATH="coverage/BigProject$TestYolo.coverage" NAME="TestYolo Coverage Results" MODIFIED="1567504086919" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DNN/YOLO" />
+    <SUITE FILE_PATH="coverage/BigProject$Test__2_.coverage" NAME="Test (2) Coverage Results" MODIFIED="1584039946316" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sign_recognition/hazmatDetection" />
     <SUITE FILE_PATH="coverage/BigProject$load_config_py3.coverage" NAME="load_config_py3 Coverage Results" MODIFIED="1564832395860" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop/opencv-contib-non-free/Build/python_loader/cv2" />
     <SUITE FILE_PATH="coverage/BigProject$HistogramWithCv2.coverage" NAME="HistogramWithCv2 Coverage Results" MODIFIED="1564661060765" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/concepts" />
     <SUITE FILE_PATH="coverage/BigProject$Access.coverage" NAME="Access Coverage Results" MODIFIED="1564832362484" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/patternRecognition/templateMatching" />
@@ -117,7 +36,7 @@
     <session id="2090198528">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="63" />
+          <entry key="project.closed" value="64" />
           <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.1" value="7" />
           <entry key="project.open.time.11" value="1" />
@@ -131,7 +50,7 @@
           <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.22" value="2" />
           <entry key="project.open.time.23" value="2" />
-          <entry key="project.open.time.24" value="5" />
+          <entry key="project.open.time.24" value="6" />
           <entry key="project.open.time.25" value="2" />
           <entry key="project.open.time.26" value="4" />
           <entry key="project.open.time.27" value="8" />
@@ -148,94 +67,65 @@
           <entry key="project.open.time.47" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="64" />
+          <entry key="project.opened" value="65" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="JPG" value="2" />
           <entry key="jpg" value="15" />
+          <entry key="md" value="1" />
           <entry key="names" value="2" />
           <entry key="png" value="7" />
-          <entry key="py" value="125" />
+          <entry key="py" value="126" />
           <entry key="yml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Image" value="24" />
+          <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="125" />
+          <entry key="Python" value="126" />
           <entry key="YAML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="111" />
-          <entry key="py" value="27920" />
-          <entry key="txt" value="692" />
+          <entry key="md" value="170" />
+          <entry key="py" value="27927" />
+          <entry key="txt" value="766" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="803" />
-          <entry key="Python" value="27920" />
+          <entry key="Markdown" value="170" />
+          <entry key="PLAIN_TEXT" value="877" />
+          <entry key="Python" value="27927" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/detection/faceDetectionWithDlib/BlinkingDetection.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="11" lean-forward="true" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-                <marker date="1571498662466" expanded="true" signature="304:3766" ph="..." />
-                <marker date="1571498662466" expanded="true" signature="1349:1479" ph="..." />
-                <marker date="1571498662466" expanded="true" signature="1388:1479" ph="..." />
-                <marker date="1571498662466" expanded="true" signature="3409:3579" ph="..." />
-                <marker date="1571498662466" expanded="true" signature="3424:3579" ph="..." />
-                <marker date="1571498662466" expanded="true" signature="3577:3579" ph="..." />
-                <marker date="1571498662466" expanded="true" signature="3616:3766" ph="..." />
-                <marker date="1571498662466" expanded="true" signature="3777:3782" ph="..." />
-                <marker date="1571498662466" expanded="true" signature="3777:4613" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sign_recognition/hazmatDetection/HazmatDetector.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1826">
-              <caret line="83" column="84" selection-start-line="83" selection-start-column="12" selection-end-line="83" selection-end-column="93" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sign_recognition/hazmatDetection/Hazmat.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sign_recognition/hazmatDetection/Test.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="176">
               <caret line="8" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor>
+                <caret column="63" selection-start-column="63" selection-end-column="63" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -307,6 +197,8 @@
         <option value="$PROJECT_DIR$/patternRecognition/hazmatDetection/Test.py" />
         <option value="$PROJECT_DIR$/patternRecognition/hazmatDetection/HazmatDetector.py" />
         <option value="$PROJECT_DIR$/detection/faceDetectionWithDlib/BlinkingDetection.py" />
+        <option value="$PROJECT_DIR$/sign_recognition/hazmatDetection/Test.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -318,9 +210,9 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="240" />
-    <option name="y" value="55" />
+    <option name="y" value="70" />
     <option name="width" value="1405" />
-    <option name="height" value="855" />
+    <option name="height" value="840" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -350,19 +242,19 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Programming\Python-Workpace\BigProject\qt\basics" />
-      <recent name="D:\Programming\Python-Workpace\BigProject\qt\mainWindowPackage" />
-      <recent name="D:\Programming\Python-Workpace\BigProject\DNN\YOLO" />
-      <recent name="D:\Programming\Python-Workpace\BigProject\ai" />
-      <recent name="D:\Programming\Python-Workpace\BigProject\detection\faceDetection" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Programming\Python-Workpace\BigProject\detection\faceDetectionWithDlib" />
       <recent name="D:\Programming\Python-Workpace\BigProject\opticalCharacterRecognition" />
       <recent name="D:\Programming\Python-Workpace\BigProject" />
       <recent name="D:\Programming\Python-Workpace\BigProject\DNN\YOLO" />
       <recent name="D:\Programming\Python-Workpace\BigProject\patternRecognition\hazmatDetection" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Programming\Python-Workpace\BigProject\readingBarcodes" />
+      <recent name="D:\Programming\Python-Workpace\BigProject\qt\basics" />
+      <recent name="D:\Programming\Python-Workpace\BigProject\qt\mainWindowPackage" />
+      <recent name="D:\Programming\Python-Workpace\BigProject\DNN\YOLO" />
+      <recent name="D:\Programming\Python-Workpace\BigProject\ai" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -377,7 +269,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Test (1)">
+  <component name="RunManager" selected="Python.Test (2)">
     <configuration name="BlinkingDetection" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="BigProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -444,6 +336,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Test (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="BigProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sign_recognition/hazmatDetection" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sign_recognition/hazmatDetection/Test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="BigProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -488,43 +402,21 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="UpperBodyDetection" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="BigProject" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/detection/haarcascades" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/detection/haarcascades/UpperBodyDetection.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Python.Unnamed" />
-      <item itemvalue="Python.UpperBodyDetection" />
       <item itemvalue="Python.BlinkingDetection" />
       <item itemvalue="Python.Test" />
       <item itemvalue="Python.Line_Detection" />
       <item itemvalue="Python.Test (1)" />
+      <item itemvalue="Python.Test (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Test (2)" />
+        <item itemvalue="Python.BlinkingDetection" />
         <item itemvalue="Python.Test (1)" />
         <item itemvalue="Python.Line_Detection" />
-        <item itemvalue="Python.BlinkingDetection" />
         <item itemvalue="Python.Test" />
-        <item itemvalue="Python.UpperBodyDetection" />
       </list>
     </recent_temporary>
   </component>
@@ -686,7 +578,21 @@
       <option name="project" value="LOCAL" />
       <updated>1570991685981</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="after refactoring">
+      <created>1584039606588</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1584039606588</updated>
+    </task>
+    <task id="LOCAL-00023" summary="changed imports">
+      <created>1584039991943</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1584039991943</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TodoView" selected-index="3">
@@ -700,21 +606,22 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1885906" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19261745" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32716927" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3261745" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.44966444" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991655" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49932885" weight="0.3261745" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4986577" weight="0.23758389" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5013423" side_tool="true" weight="0.3489933" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5013423" side_tool="true" weight="0.23758389" />
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4986577" weight="0.3489933" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.3261745" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -749,7 +656,9 @@
     <MESSAGE value="Just comments updated :)" />
     <MESSAGE value="Changed the python interpreter" />
     <MESSAGE value="Refactoring BlinkingDetection" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactoring BlinkingDetection" />
+    <MESSAGE value="after refactoring" />
+    <MESSAGE value="changed imports" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed imports" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -933,33 +842,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sign_recognition/hazmatDetection/Hazmat.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sign_recognition/hazmatDetection/Test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sign_recognition/hazmatDetection/HazmatDetector.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1826">
-          <caret line="83" column="84" selection-start-line="83" selection-start-column="12" selection-end-line="83" selection-end-column="93" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cuda/Test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
@@ -1008,8 +890,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/detection/faceDetectionWithDlib/BlinkingDetection.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="11" lean-forward="true" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+        <state relative-caret-position="3234">
+          <caret line="147" column="7" selection-start-line="147" selection-start-column="7" selection-end-line="147" selection-end-column="7" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
             <marker date="1571498662466" expanded="true" signature="304:3766" ph="..." />
@@ -1022,6 +904,33 @@
             <marker date="1571498662466" expanded="true" signature="3777:3782" ph="..." />
             <marker date="1571498662466" expanded="true" signature="3777:4613" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sign_recognition/hazmatDetection/HazmatDetector.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1826">
+          <caret line="83" column="84" selection-start-line="83" selection-start-column="12" selection-end-line="83" selection-end-column="93" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sign_recognition/hazmatDetection/Hazmat.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sign_recognition/hazmatDetection/Test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
