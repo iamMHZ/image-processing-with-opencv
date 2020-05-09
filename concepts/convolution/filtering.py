@@ -49,6 +49,6 @@ for (kernel_name, kernel) in kernelBank:
     cv2.imshow(kernel_name, output)
     cv2.waitKey(0)
 
-    cv2.imwrite(kernel_name+'2.jpg',output)
+    cv2.imwrite(kernel_name + '.jpg', output)
 
 cv2.destroyAllWindows()
